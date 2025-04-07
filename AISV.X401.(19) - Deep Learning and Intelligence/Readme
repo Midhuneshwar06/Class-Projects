@@ -1,0 +1,77 @@
+# Enhancing Python Question Answering with Gemma
+
+This project focuses on building an efficient and accurate Python Question-Answering (QA) system using the Gemma language model, integrated with Keras NLP and executed on Google Colab for faster inference.
+
+## 📌 Project Motivation
+
+Finding reliable Python answers can be slow and inefficient.  
+This project aims to create a system that:
+- Improves answer accuracy.
+- Delivers faster response times.
+- Handles a diverse range of Python questions.
+
+## 🚀 Technologies Used
+
+- **Gemma Model**: Causal language model with 2B parameters.
+- **Keras NLP**: For seamless integration with Gemma.
+- **Google Colab**: Free GPU access for faster execution.
+- **Python**: Implementation of the QA system.
+
+## 🧩 Methodology
+
+We experimented with different prompts and decoding strategies:
+- **Greedy Decoding**: Concise, to-the-point answers.
+- **Top-k Sampling**: More detailed and diverse answers.
+
+### Sample Prompts:
+- "What is Python?"
+- "How to create a list?"
+- "NumPy benefits?"
+
+| Prompt               | Greedy Output                             | Top-k Output                               |
+|---------------------|-------------------------------------------|-------------------------------------------|
+| What is Python?     | High-level, general-purpose language      | Interpreted, high-level, general-purpose language |
+| How to create a list? | Use square brackets and commas          | Use square brackets and commas, e.g., [1, 2, 3] |
+| NumPy benefits?     | Efficient array operations               | Efficient array operations                |
+
+## 📊 Results
+
+Using the "Python QA" dataset of 1,000 Q&A pairs:
+
+| Model           | Accuracy | Precision | Recall | F1-Score |
+|----------------|-----------|-----------|--------|----------|
+| Gemma          | 85%       | 82%       | 88%    | 85%      |
+| Keyword Search | 70%       | 65%       | 75%    | 70%      |
+
+## ⚙️ How to Run
+
+1. Open the [`Gemma_Python_problems.ipynb`](./Gemma_Python_problems.ipynb) notebook.
+2. Upload to [Google Colab](https://colab.research.google.com/).
+3. Install dependencies and run all cells to test Python QA prompts.
+
+## 🧩 Limitations
+
+- Dependent on dataset quality.
+- Challenges with abstract or multi-hop questions.
+- Difficult to evaluate deep conceptual understanding.
+
+## 🔭 Future Work
+
+- Fine-tune Gemma on larger, diverse datasets.
+- Enhance handling of complex queries.
+- Explore advanced evaluation techniques.
+
+## 🏆 Conclusion
+
+Gemma shows strong potential for Python QA systems, improving both accuracy and relevance over traditional keyword search approaches.  
+This tool can aid developers, educators, and learners by providing fast, reliable Python answers!
+
+---
+
+## 📄 Author
+
+**Midhuneshwar Kandasamy Kanivalvan**  
+Date: 03/24/2025
+
+---
+
