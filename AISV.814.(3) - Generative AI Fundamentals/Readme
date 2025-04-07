@@ -1,0 +1,26 @@
+# 🌍 SensAI – Multilingual AI Translator
+
+**SensAI** is an innovative multilingual translation tool that breaks down language barriers using cutting-edge Generative AI technology.  
+Powered by the Mistral AI API and a clean Gradio interface, SensAI enables seamless, accurate translations across English, Japanese, Spanish, Tamil, Chinese, and Korean languages.
+
+## ✨ Features
+
+- 🌐 **Multilingual Support**: English ↔️ Japanese, Spanish, Tamil, Chinese, Korean.
+- 🗣️ **Tone Selection**: Choose between formal and informal translation styles.
+- ⚙️ **Robust API Integration**: Reliable Mistral AI integration with smart error handling.
+- 🎨 **User-Friendly Interface**: Simple Gradio UI with real-time translation preview.
+- 🔍 **Context-Aware Translations**: Maintains meaning and cultural tone.
+
+## 📂 What's Included
+
+- `SensAI.ipynb`: Jupyter Notebook with full implementation.
+- Gradio-powered interface for live translation.
+- Structured API calls with error handling and token management.
+- Pre-defined system prompt for professional translation quality.
+
+## 🧩 How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/SensAI.git
+   cd SensAI
